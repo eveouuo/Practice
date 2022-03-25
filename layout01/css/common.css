@@ -1,0 +1,33 @@
+    @charset "UTF-8";
+    @font-face {
+        font-family: 'Galmuri9';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/Galmuri9.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    * {cursor: url(https://cur.cursors-4u.net/others/oth-9/oth801.cur), auto !important;}
+    * {color: lightcoral; text-decoration: none; list-style: none; padding: 0; margin: 0; font-family: 'Galmuri9'; font-size: 13px;}
+    p {line-height: 20px;}
+    body {background-color: peachpuff;}
+
+    #wrap {width: 680px; margin: 50px auto;}
+
+    header {width: 150px; float: left; margin: 0; margin-right: 30px; padding: 0;}
+    header .topnav {width: 150px; margin: 0 auto; padding: 10px 0; background-color: #fff; border: 1px solid #fff; border-radius: 10px;}
+    header nav ul.gnb {width: 150px; margin: 0 auto; padding: 5px 0;}
+    header nav ul.gnb > li {width: 100%;  text-align: center;}
+    header nav ul.gnb > li > a {display: block; background-color: #fff; width: 100%; text-align: center; height: 30px; line-height: 30px;}
+    /* header nav ul.gnb > li > a.no1 {border-top-left-radius: 10px; border-top-right-radius: 10px;} */
+    header nav ul.sub {display: none;}
+    header nav ul.sub > li {width: 150px; height: 30px; line-height: 30px;}
+    /* header nav ul.sub > li {padding: 10px 0;} */
+    header nav ul.sub > li > a {display: block; width: 150px; margin: 0 auto; text-align: center; background-color: lightcoral; color: #fff;}
+
+    #contents {float: right; width: 500px; height: 500px;background-color: #fff; border-radius: 10px;}
+    #contents .con {width: 490px; height: 450px; margin: 25px auto;overflow: auto;}
+    #contents p {padding: 0 20px;}
+    #contents p::selection {color: #fff; background-color: lightcoral;}
+    #contents .con::-webkit-scrollbar {width: 5px; padding: 10px;}
+    #contents .con::-webkit-scrollbar-thumb {background-color: lightcoral; border-radius: 5px;}
+    #contents .con::-webkit-scrollbar-track {margin: 10px; background-color: #00ff0000}
