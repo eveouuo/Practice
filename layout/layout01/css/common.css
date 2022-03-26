@@ -8,12 +8,18 @@
 
     * {cursor: url(https://cur.cursors-4u.net/others/oth-9/oth801.cur), auto !important;}
     * {color: lightcoral; text-decoration: none; list-style: none; padding: 0; margin: 0; font-family: 'Galmuri9'; font-size: 13px;}
+    *::selection {color: #fff; background-color: lightcoral;}
+
     p {line-height: 20px;}
+
     body {background-color: peachpuff;}
 
-    #wrap {width: 680px; margin: 50px auto;}
+    #wrap {width: 680px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
 
     header {width: 150px; float: left; margin: 0; margin-right: 30px; padding: 0;}
+
+    header .toplogo img {display: block; width: 100px; margin: 0 auto; border-radius: 100px; padding: 10px 0 20px;}
+
     header .topnav {width: 150px; margin: 0 auto; padding: 10px 0; background-color: #fff; border: 1px solid #fff; border-radius: 10px;}
     header nav ul.gnb {width: 150px; margin: 0 auto; padding: 5px 0;}
     header nav ul.gnb > li {width: 100%;  text-align: center;}
@@ -31,3 +37,5 @@
     #contents .con::-webkit-scrollbar {width: 5px; padding: 10px;}
     #contents .con::-webkit-scrollbar-thumb {background-color: lightcoral; border-radius: 5px;}
     #contents .con::-webkit-scrollbar-track {margin: 10px; background-color: #00ff0000}
+
+    footer .copy {float: right; width: 500px; margin: 0 auto; text-align: center; padding-top: 10px;}

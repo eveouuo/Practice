@@ -12,14 +12,14 @@
 
 body {background-color:  #ffeee8;}
 
-#wrap {width: 500px; margin: 0 auto; padding-top: 50px;}
+#wrap {width: 500px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
 
 header {width: 100%;}
-header .top {width: 100px; background-color: #7987a1;}
-header .top h1 {display: block; color: #fff; text-align: center; padding: 5px 0;}
+header .top {width: 100px; }
+header .top h1 {display: block; color: #fff; text-align: center; background-color: #7987a1; height: 25px; line-height: 25px;}
 header .top h1::selection {color: transparent; text-shadow: 0 0 2px #ffeee8;}
 
-section#contents {width: 500px; height: 400px; background-color: #fff; border: 1px solid #7987a1;}
+section#contents {width: 500px; height: 400px; background-color: #fff; border: 1px solid #7987a1; box-sizing: border-box;}
 
 section#contents img {display: block; width: 80px; margin: 0 auto; padding: 5px 0;}
 
