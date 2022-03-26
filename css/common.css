@@ -1,1 +1,26 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'Galmuri9';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/Galmuri9.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {padding: 0; margin: 0; list-style: none; text-decoration: none; color: #7987a1; font-size: 14px; font-family: Galmuri9;}
+
+body {background-color:  #ffeee8;}
+
+#wrap {width: 500px; margin: 0 auto; padding-top: 50px;}
+
+header {width: 100%;}
+header .top {width: 100px; background-color: #7987a1;}
+header .top h1 {display: block; color: #fff; text-align: center; padding: 5px 0;}
+
+
+section#contents {width: 500px; height: 400px; background-color: #fff; border: 1px solid #7987a1;}
+
+section#contents ul.list {padding: 30px;}
+section#contents ul.list li {padding-bottom: 20px; line-height: 10px;}
+section#contents ul.list li a {display: block;}
+section#contents ul.list li a::selection {color: #ffeee8; background-color: #7987a1;}
+section#contents ul.list li a img {display: block; float: left; padding-right: 10px; width: 13px; height: 13px;}
