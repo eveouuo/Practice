@@ -5,8 +5,10 @@
     font-weight: normal;
     font-style: normal;
 }
-
+* {cursor: url(https://cur.cursors-4u.net/others/oth-4/oth305.cur), auto !important;}
+/* * {cursor: url(https://cur.cursors-4u.net/others/oth-6/oth652.cur), auto !important;} */
 * {padding: 0; margin: 0; list-style: none; text-decoration: none; color: #7987a1; font-size: 14px; font-family: Galmuri9;}
+*::selection {color: transparent; text-shadow: 0 0 2px #7987a1;}
 
 body {background-color:  #ffeee8;}
 
@@ -15,12 +17,15 @@ body {background-color:  #ffeee8;}
 header {width: 100%;}
 header .top {width: 100px; background-color: #7987a1;}
 header .top h1 {display: block; color: #fff; text-align: center; padding: 5px 0;}
-
+header .top h1::selection {color: transparent; text-shadow: 0 0 2px #ffeee8;}
 
 section#contents {width: 500px; height: 400px; background-color: #fff; border: 1px solid #7987a1;}
 
+section#contents img {display: block; width: 80px; margin: 0 auto; padding: 5px 0;}
+
 section#contents ul.list {padding: 30px;}
-section#contents ul.list li {padding-bottom: 20px; line-height: 10px;}
+section#contents ul.list li {padding-bottom: 10px; line-height: 20px;}
 section#contents ul.list li a {display: block;}
-section#contents ul.list li a::selection {color: #ffeee8; background-color: #7987a1;}
 section#contents ul.list li a img {display: block; float: left; padding-right: 10px; width: 13px; height: 13px;}
+
+footer .copy {text-align: center; font-size: 10px; padding-top: 5px;}
