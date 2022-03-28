@@ -15,7 +15,8 @@ body::-webkit-scrollbar {width: 10px;}
 body::-webkit-scrollbar-thumb {background-color: #BAAEDD;}
 
 #top {width: 100%; height: 220px;  position: fixed; top:0; z-index: 100; margin-bottom: 20px; background-color: #fff; }
-#top .topimg {width: 100%; height: 200px; background: url(/layout/layout03/img/lavender.jpg),no-repeat; background-position: 50%; }
+#top .topimg {width: 100%; height: 200px; background: url(./layout/layout03/img/lavender.jpg),no-repeat; background-position: 50%; }
+#top .topimg a {display: block;}
 
 #wrap {width: 1200px; margin: 0 auto; margin-top: 220px; position: relative;}
 
