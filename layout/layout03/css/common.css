@@ -34,7 +34,7 @@ header nav ul.sub > li > a {display: block; width: 150px; }
 header nav ul.sub > li:hover > a {color: #fff; background-color: #BAAEDD;}
 
 
-/* contents */
+/* contents */ 
 #contents .contentInner {width: 1000px; float: right;}
 #contents .title {padding-left: 10px; padding-top: 10px;}
 #contents .txt {padding: 30px 10px;}
