@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     $(window).scroll(function(){
         if($(this).scrollTop() > 2){
             $('#top').stop().animate({'height':'120px'},300);
@@ -8,5 +7,11 @@ $(document).ready(function(){
             $('#top').stop().animate({'height':'220px'},300);
             $('.topimg .imgbox').stop().animate({'height':'200px'},300);
         }
-    })
+    });
+
+    $("ul.gnb > li").hover(function(){
+        $(this).find("ul.sub").stop().slideDown();
+    },function(){
+        $(this).find("ul.sub").stop().slideUp();
+    });
 });

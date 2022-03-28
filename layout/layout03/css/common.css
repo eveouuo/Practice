@@ -7,10 +7,11 @@
 }
 
 * {padding: 0; margin: 0; color: #777; list-style: none; text-decoration: none; font-family: MapoFlowerIsland;}
+*::selection {background-color: lavender; color: #888;}
 img {display: block;}
 
 .clearfix::after {display: block; clear: both; content: '';}
- 
+
 body::-webkit-scrollbar {width: 10px;}
 body::-webkit-scrollbar-thumb {background-color: #BAAEDD;}
 
@@ -21,16 +22,22 @@ body::-webkit-scrollbar-thumb {background-color: #BAAEDD;}
 
 #wrap {width: 1200px; margin: 0 auto; margin-top: 220px; position: relative;}
 
-header {width: 150px; position: fixed; top: 220px;}
-/* header {width: 150px; float: left;}   */
+header {width: 150px; position: fixed; top: 300px;}
 header nav ul.gnb {width: 150px; border: 1px solid #BAAEDD;}
-header nav ul.gnb li {width: 100%; box-sizing: border-box; text-align: center;}
-header nav ul.gnb li a {display: block; background-color: #fff;}
+header nav ul.gnb > li {width: 100%; text-align: center;}
+header nav ul.gnb > li > a {display: block; background-color: #fff; height: 30px; line-height: 30px;}
+header nav ul.gnb > li:hover > a {color: #fff; background-color: #BAAEDD;}
+
+header nav ul.sub {display: none;}
+header nav ul.sub > li {width: 100%; text-align: center; height: 30px; line-height: 30px;}
+header nav ul.sub > li > a {display: block; width: 150px; }
+header nav ul.sub > li:hover > a {color: #fff; background-color: #BAAEDD;}
 
 
 /* contents */
 #contents .contentInner {width: 1000px; float: right;}
-#contents .txt {padding: 10px;}
+#contents .title {padding-left: 10px; padding-top: 10px;}
+#contents .txt {padding: 30px 10px;}
 /* //contents */
 
 /* footer */
